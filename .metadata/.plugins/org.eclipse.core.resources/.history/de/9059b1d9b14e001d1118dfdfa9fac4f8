@@ -1,0 +1,26 @@
+package arryassiment18082022;
+
+
+class Young extends RuntimeException{
+	Young(String msg){
+		super(msg);
+	}
+}
+public class SumOfArray1 {
+	
+
+	
+	public static void main(String[] args) {
+		if(18<18){
+			throw new Young("you wait some years");
+		}
+		
+		}
+		
+		
+			
+		
+	}
+
+
+

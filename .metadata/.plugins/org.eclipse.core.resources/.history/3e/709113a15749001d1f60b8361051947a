@@ -1,0 +1,44 @@
+package statementjdbc;
+
+import java.sql.CallableStatement;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Types;
+
+public class StroedProcedurJdbc {
+
+	public static void main(String[] args) {
+		
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			
+			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/javajdbc", "root", "root");
+			CallableStatement cst=con.prepareCall("{call proced1(?,?)}");
+			 cst.registerOutParameter(2, Types.INTEGER);
+			 cst.setInt(1, 10);
+			
+			 
+			 cst.execute();
+			 
+			 System.out.println("done"+ cst.getInt(2));
+		} catch (ClassNotFoundException | SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		 
+		 
+		 
+     	
+     	
+     	
+     	
+		
+		
+		
+		
+	    
+
+	}
+
+}

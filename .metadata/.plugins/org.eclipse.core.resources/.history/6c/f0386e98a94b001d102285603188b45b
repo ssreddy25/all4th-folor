@@ -1,0 +1,20 @@
+package arryassiment18082022;
+
+public class SumOfArray1 {
+
+	public static void main(String[] args) {
+		
+		String s="hello world";
+		int  sub=s.length();
+		
+		System.out.println(sub);
+		
+		}
+		
+		
+			
+		
+	}
+
+
+

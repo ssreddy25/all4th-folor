@@ -1,0 +1,12 @@
+127.0.0.1 - - [30/Sep/2022:12:56:34 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [30/Sep/2022:12:56:35 +0530] "GET /serveltdemo/InputDemo.html HTTP/1.1" 200 287
+0:0:0:0:0:0:0:1 - - [30/Sep/2022:12:57:53 +0530] "GET /serveltdemo/HelloServelt?t1=gjsgfdg HTTP/1.1" 200 42
+0:0:0:0:0:0:0:1 - - [30/Sep/2022:14:05:18 +0530] "GET /serveltdemo/InputDemo.html HTTP/1.1" 200 287
+0:0:0:0:0:0:0:1 - - [30/Sep/2022:14:05:21 +0530] "GET /serveltdemo/InputDemo.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [30/Sep/2022:14:05:31 +0530] "GET /serveltdemo/HelloServelt?t1=siva+sankar+reddy HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [30/Sep/2022:14:07:25 +0530] "GET /serveltdemo/HelloServelt?t1=siva+sankar+reddy HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [30/Sep/2022:14:07:26 +0530] "GET /serveltdemo/HelloServelt?t1=siva+sankar+reddy HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [30/Sep/2022:14:07:29 +0530] "GET /serveltdemo/InputDemo.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [30/Sep/2022:14:08:50 +0530] "GET /serveltdemo/InputDemo.html HTTP/1.1" 200 287
+0:0:0:0:0:0:0:1 - - [30/Sep/2022:14:08:51 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [30/Sep/2022:14:09:04 +0530] "GET /serveltdemo/HelloServelt?t1=siva+sankar+reddy HTTP/1.1" 200 52

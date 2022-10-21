@@ -1,0 +1,23 @@
+package arryassiment18082022;
+
+public class SumOfArray1 {
+
+	public static void main(String[] args) {
+		
+		String s="hello world avi moon";
+//		int  sub=s.length();
+//		s.trim();
+		String sub=s.substring(s.lastIndexOf(" ")+1);
+
+		
+		System.out.println(sub.length());
+		
+		}
+		
+		
+			
+		
+	}
+
+
+
